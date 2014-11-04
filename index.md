@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Index"
+title: "Rankcloud"
 description: ""
 paginate: 3
 ---
@@ -11,7 +11,7 @@ paginate: 3
 <div class='row' style='margin-top: 20px;'>
 
 <div class='col-sm-10 col-sm-offset-1'>
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   <div class='panel panel-default'>
     <div class='panel-heading'>
       <h2 class='posts-title'><a href='{{ BASE_PATH }}{{ post.url }}'>{{ post.title }}</a></h2>
